@@ -1,0 +1,57 @@
+.DesktopMenu {
+    width: 300px;
+    height: 100%;
+    background-color: #2f3640;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #d4d4d4;
+    -webkit-box-shadow: .1px 0px 0px 0px #ffffff; 
+    box-shadow: .1px 0px 0px 0px #ffffff;
+}
+
+.DesktopMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.DesktopMenu ul li {
+    font-size: 15pt;
+    font-weight: lighter;
+    padding: 30px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.DesktopMenu ul li span {
+    width: 25px;
+    height: 3px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.DesktopMenu .active {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.DesktopMenu ul li:hover {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.DesktopMenu ul li:hover span {
+    background-color: #c42400;
+}
+
+.DesktopMenu .Logo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.DesktopMenu .Logo img {
+    object-fit: cover;
+    width: 300px;
+}

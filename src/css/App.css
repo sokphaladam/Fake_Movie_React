@@ -1,0 +1,9 @@
+@import './DesktopMenu.css';
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+body, html {
+    border: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #2f3640;
+}
